@@ -1,0 +1,6 @@
+{
+  "name": "Local Habit Tracker",
+  "description": "A clean, beautiful and minimalist local habit-tracking application using secure local storage.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
