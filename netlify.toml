@@ -1,0 +1,13 @@
+# netlify.toml - Netlify Configuration File
+[build]
+  # Specify the build command
+  command = "npm run build"
+  
+  # Specify the folder with the built static files to deploy
+  publish = "dist"
+
+# Redirect rules to route all sub-pages back to index.html (crucial for Single Page Apps)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
